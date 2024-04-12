@@ -6,10 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
 function HeroSection() {
   return (
     <section>  
-        <div className='m-6 my-10 md:flex md:items-center  md:justify-evenly '>
+        <div className='m-6 mt-24 my-10 md:flex md:items-center  md:justify-evenly '>
             <div className='flex flex-col md:w-2/3'>
                 <h1 className='text-4xl lg:text-6xl mb-4 font-extrabold text-center sm:text-left'>
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500'>
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500 pb-4'>
                         Hello, I'm  
                     </span> 
                     <br></br>
@@ -18,9 +18,9 @@ function HeroSection() {
                         // Same substring at the start will only be typed out once, initially
                         'Wahome.',
                         2000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'A Web Developer.',
+                        'a Web Developer.',
                         1000,
-                        'A UI/UX Designer.',
+                        'a UI/UX Designer.',
                         1000,
                         
                     ]}

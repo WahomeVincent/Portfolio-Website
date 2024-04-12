@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#0B0033]">
         <Navbar />
         <HeroSection />
-        {/* <About /> */}
+        <About />
     </main>
   );
 }
