@@ -12,7 +12,7 @@ export default function Home() {
         <HeroSection />
         <About />
         <ProjectSection />
-        
+        <EmailSection />
         <Footer />
     </main>
   );
