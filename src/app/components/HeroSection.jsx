@@ -1,15 +1,20 @@
 "use client"
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from "framer-motion"
 
 
 function HeroSection() {
   return (
     <section>  
-        <div className='m-6 mt-24 my-10 md:flex md:items-center  md:justify-evenly '>
-            <div className='flex flex-col md:w-2/3'>
-                <h1 className='text-4xl lg:text-6xl mb-4 font-extrabold text-center sm:text-left'>
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-red-500 pb-4'>
+        <motion.div 
+            initial={{opacity: 0, scale: 0.5 }}
+            animate={{opacity: 1, scale:1}}
+            transition={{duration: 0.5}}
+            className='m-6 mt-24 my-10 md:flex md:items-center  md:justify-evenly '>
+            <div className='flex flex-col md:w-2/3 '>
+                <h1 className='h-32 text-4xl lg:text-6xl mb-4 font-extrabold text-center sm:text-left'>
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-red-500 to-blue-700 pb-4'>
                         Hello, I'm  
                     </span> 
                     <br></br>
@@ -35,10 +40,10 @@ function HeroSection() {
                 </p>
 
                 <div className='flex flex-col w-2/3 md:w-full mx-auto md:flex-row md:gap-8'>
-                    <button className='bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-[#0B0033] text-white  hover:text-white hover:border rounded-full  sm:w-fit px-6 py-3 my-4 font-bold '>
+                    <button className='bg-gradient-to-br from-blue-100 via-blue-500 to-blue-700 hover:bg-[#0B0033] text-white  hover:text-white hover:border rounded-full  sm:w-fit px-6 py-3 my-4 font-bold '>
                         Hire Me
                     </button>
-                    <button className='bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-[#e9e9e9] text-white hover:text-[#545061] border rounded-full  my-4 sm:w-fit text-center px-1 py-1 font-bold'>
+                    <button className='bg-gradient-to-br from-blue-100 via-blue-500 to-blue-700 hover:bg-[#e9e9e9] text-white hover:text-[#545061] border rounded-full  my-4 sm:w-fit text-center px-1 py-1 font-bold'>
                         <span className='block bg-[#0B0033] rounded-full px-5 py-3'>
                             Download CV
                         </span>
@@ -49,7 +54,7 @@ function HeroSection() {
             <div className=' mx-auto rounded-full w-60 h-60 md:w-80 md:h-80 bg-[#110344]'>
                 <img src='https://images.unsplash.com/photo-1570215171424-f74325192b55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNvZndhcmUlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D' alt='profile-pic' className='rounded-full  w-60 h-60 md:w-80 md:h-80 p-2'/>
             </div>
-        </div>
+        </motion.div>
     </section>
   )
 }
