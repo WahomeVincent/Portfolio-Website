@@ -11,14 +11,11 @@ export async function POST(req, res) {
    
   try {
     const data = await resend.emails.send({
-      from: fromEmail,
+      from: 'onboarding@resend.dev',
       to: ['vincentwahome100@gmail.com', email],
       subject: subject,
       react: (
         <>
-          <h1>{subject}</h1>
-          <p>Thank you for contacting us.</p>
-          <p>New message submitted.</p>
           <p>{message}</p>
         </>
       )

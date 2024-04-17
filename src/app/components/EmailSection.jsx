@@ -57,9 +57,9 @@ function EmailSection() {
     <section  className='m-6 md:flex md:justify-between relative'>
         <div className='hidden md:block bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-900 to-transparent rounded-full h-64 w-64 z-0 blur-lg absolute -bottom-24 -left-24'></div>
         <div className='md:w-1/3 md:ml-10 '>
-            <h1 className='text-xl font-bold underline my-2'>Let&apos;s connect</h1>
+            <h1 className='text-xl font-bold underline my-2'>Let &apos; s connect</h1>
             <p>
-                I am currently looking for new opportunites, my inbox is always open. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+                I am currently looking for new opportunites, my inbox is always open. Whether you have a question or just want to say hi, I &apos; ll try my best to get back to you!
             </p>
             
             <div className='flex items-center my-4 gap-6 md:gap-10'>
