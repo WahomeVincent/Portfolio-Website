@@ -27,7 +27,7 @@ function HeroSection() {
             <div className='flex flex-col md:w-2/3 '>
                 <h1 className='h-32 text-4xl lg:text-6xl mb-4 font-extrabold text-center sm:text-left'>
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-200 via-red-500 to-blue-700 pb-4'>
-                        Hello, I'm  
+                        Hello, I&apos;m  
                     </span> 
                     <br></br>
                 <TypeAnimation

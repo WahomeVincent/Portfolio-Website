@@ -2,6 +2,8 @@
 import React, { useState, useTransition } from 'react'
 import TabButton from './TabButton'
 import { motion } from "framer-motion"
+import Image from 'next/image'
+import computer from '../../../public/images/computer.jpg'
 
 
 const tabData = [
@@ -64,7 +66,7 @@ function About() {
             transition={{duration: 0.5}}
             className='m-6 md:flex  md:justify-between'>
             <div className='my-6 md:w-1/2 '>
-                <img src='https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_960_720.jpg' alt='' className='md:w-4/5 md:h-full md:object-cover rounded'/>
+                <Image src={computer} alt='about-me' className=' md:w-4/5 md:h-full md:object-cover rounded' />
             </div>
 
             <div className='md:w-1/2 md:flex md:flex-col md:justify-start'>

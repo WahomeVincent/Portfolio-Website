@@ -34,7 +34,7 @@ function Navbar() {
             {/* Mobile */}
             <motion.button
                 onClick={toggleMenu}
-                className='h-10 w-10 ml-auto'
+                className='h-10 w-10 ml-auto md:hidden'
                 whileTap={{ scale: 1}} // Scale down animation on tap
                 initial={{ opacity: 0, scale: 0 }} // Initial animation state
                 animate={{ opacity: 1, scale: 1, transition: { duration: 0.5 }}} // Animation when menu opens

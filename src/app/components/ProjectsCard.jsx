@@ -19,7 +19,7 @@ function ProjectsCard({imgUrl, title, description, gitUrl, previewUrl}) {
             </div>
         </div>
         
-        <div className='bg-[#252552] font-bold rounded-b-lg py-2 px-2'>
+        <div className='bg-[#191963] font-bold rounded-b-lg py-2 px-2'>
             <h2 className='text-lg underline '>{title}</h2>
             <h3 className='text-xs my-2 text-slate-300 md:w-full'>{description}</h3>
 
