@@ -70,7 +70,7 @@ function About() {
             <div className='md:w-1/2 md:flex md:flex-col md:justify-start'>
                 <h1 className='text-2xl font-bold my-2 border-b'>About Me</h1>
 
-                <p className='my-4'>I am full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with Javascript, React, Redux, Next js, Node js, Express, Mongo db, HTML, CSS and Git. I am a quick learner and always looking to expand my knowledge and skillset. I am a team player and I am excited to work with others to create amazing applications.</p>
+                <p className='my-4'>I am full stack web developer with a passion for creating interactive and responsive web applications. I have experience working with Javascript, Python, React, Redux, Next.js, Node.js, Express.js, Ruby on rails, MongoDB, HTML, CSS and Git. I am a quick learner and always looking to expand my knowledge and skillset. I am a team player and I am excited to work with others to create amazing applications.</p>
 
                 <div className='flex space-x-4 my-6'>
                     <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>

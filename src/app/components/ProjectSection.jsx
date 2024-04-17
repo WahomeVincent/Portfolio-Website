@@ -4,23 +4,29 @@ import ProjectsCard from './ProjectsCard'
 const projectsData = [
     {
         id:1,
-        title: 'React Admin Dashboard',
-        image: '/images/Dashboard.png',
-        description:'Project 1'
+        title: 'Farm.Shop',
+        image: '/images/farm-shop.png',
+        description:' A project that helps connect farmers with consumers with love for organic food.',
+        gitUrl: 'https://github.com/WahomeVincent/Farm-House',
+        previewUrl: 'https://farmshop-three.vercel.app/',
     },
 
     {
-        id:1,
+        id:2,
         title: 'React Admin Dashboard',
         image: '/images/Dashboard.png',
-        description:'Project 2'
+        description:'Leveraged syncfusion wide library of components to create a versatile admin dashboard.',
+        gitUrl: 'https://github.com/WahomeVincent/AdminDashboard-React',
+        previewUrl: 'https://admin-dashboard-react-one.vercel.app/',
     },
 
     {
-      id:1,
-      title: 'React Admin Dashboard',
-      image: '/images/Dashboard.png',
-      description:'Project 3'
+      id:3,
+      title: 'Donations Platform',
+      image: '/images/donations.png',
+      description:'Developed a school project where partners can host their organizations and well wishers could offer donations.',
+      gitUrl: 'https://github.com/WahomeVincent/Donations',
+      previewUrl: 'https://github.com/WahomeVincent/Donations',
     },
 
 ]
@@ -36,6 +42,8 @@ function ProjectSection() {
                   title={project.title}
                   description={project.description}
                   imgUrl={project.image}
+                  gitUrl={project.gitUrl}
+                  previewUrl={project.previewUrl}
               />
               ))}
         </div>

@@ -47,8 +47,8 @@ function HeroSection() {
                     repeat={Infinity}
                 />
                 </h1>
-                <p className='text-[#888f96] my-4 text-center sm:text-left'>
-                Welcome to my portfolio website! As a passionate web developer, I specialize in crafting immersive digital experiences that seamlessly blend creativity and functionality. With a keen eye for detail and a dedication to staying at the forefront of technology, I strive to bring my clients' visions to life through elegant, user-centric design and robust, scalable code.
+                <p className='text-[#b2b6bb] my-4 text-center sm:text-left'>
+                Welcome to my portfolio website. As a passionate web developer, I specialize in crafting immersive digital experiences that seamlessly blend creativity and functionality. With a keen eye for detail and a dedication to staying at the forefront of technology, I strive to develop products with user-centric design, robust and scalable code.
                 </p>
 
                 <div className='flex flex-col w-2/3 md:w-full mx-auto md:flex-row md:gap-8'>

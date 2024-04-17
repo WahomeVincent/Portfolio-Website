@@ -72,6 +72,11 @@ function EmailSection() {
                     <FaLinkedinIn  className='bg-white text-black text-5xl p-1 rounded hover:bg-blue-500'/>
                 </Link>
             </div>
+            
+            <div className='my-6'>
+                <h1 className='my-2'>Tel: +254 712445492</h1>
+                <h1>Email: vinwahome@gmail.com</h1>
+            </div>
 
         </div>
 
